@@ -31,7 +31,7 @@ body {
 }
 
 div, h1, h2, h3, p{
-  outline: .5px solid #00000025;
+  outline: 5px solid #00000025;
 }
 
 nav {
