@@ -179,6 +179,9 @@ header .btns button {
   animation-range: entry 0% cover 40%;
 }
 
+.aboutsec div h1{font-size: 2.25rem;}
+.aboutsec div p{font-size: 1.1rem;}
+
 .aboutsec img {
   border-radius: 1rem;
   margin: 0 0 2rem 0;
