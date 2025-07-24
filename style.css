@@ -300,6 +300,8 @@ footer .contactoptions .coption ul li a i {
   .aboutsec img {
     margin: 0 2rem 0 0;
     width: 45%;
+    height: fit-content;
+
   }
   
   footer .contactoptions {
