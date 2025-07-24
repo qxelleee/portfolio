@@ -24,6 +24,7 @@
 
 html {
   font-size: 18px;
+  user-select: none;
 }
 
 body {
@@ -53,12 +54,12 @@ nav h2 {
 
 nav ul {
   display: none;
+  column-gap: .8rem;
   flex-direction: row;
   list-style: none;
 }
 
 nav ul li {
-  padding: .4rem;
 }
 
 .dropdown ul li a,
@@ -95,12 +96,12 @@ nav div i {
 
 .dropdown ul {
   display: flex;
+  column-gap: .8rem;
   flex-direction: row;
   list-style: none;
 }
 
 .dropdown ul li {
-  padding: .4rem;
   font-size: rem;
 }
 
@@ -212,7 +213,8 @@ footer .contactoptions p {
 
 footer .contactoptions .coption {
   padding-left: 1rem;
-  padding-top: 1rem;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
 }
 
 footer .contactoptions .coption ul {
@@ -223,6 +225,9 @@ footer .contactoptions .coption ul {
   justify-content: space-evenly;
 }
 
+footer .contactoptions .coption ul li {
+  padding: .4rem;
+}
 footer .contactoptions .coption ul li a {
   text-decoration: none;
   display: flex;
@@ -232,8 +237,8 @@ footer .contactoptions .coption ul li a {
 }
 
 footer .contactoptions .coption ul li a i {
-  margin: .2rem;
   font-size: 1.3rem;
+  margin-right: .5rem;
 }
 
 .copyright {
@@ -318,6 +323,5 @@ footer .contactoptions .coption ul li a i {
   }
   
   footer .contactoptions .coption {
-    padding-top: 0;
   }
 }
