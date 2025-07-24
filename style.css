@@ -7,7 +7,7 @@
   --shade4: salmon;
   --shade5: lightsalmon;
   --textcolor: #514B5A;
-  --headerbg: url(bglight.jpg);
+  --headerbg: url(/img/bglight.webp);
 }
 
 * {
