@@ -32,7 +32,11 @@ body {
   background: var(--shade1);
 }
 
-div, h1, h2, h3, p{
+div,
+h1,
+h2,
+h3,
+p {
   outline: .5px solid #00000025;
 }
 
@@ -60,8 +64,7 @@ nav ul {
   list-style: none;
 }
 
-nav ul li {
-}
+nav ul li {}
 
 .dropdown ul li a,
 nav ul li a,
@@ -158,7 +161,8 @@ header .btns button {
 }
 
 .aboutheading,
-.contactheading, .projectheading{
+.contactheading,
+.projectheading {
   margin: 1.3rem 1.5rem;
   border-bottom: 2px solid #00000070;
   display: flex;
@@ -172,6 +176,11 @@ header .btns button {
   padding: .2rem;
 }
 
+.aboutheading p a,
+.projectheading p a {
+  text-decoration: none;
+}
+
 .aboutsec {
   display: flex;
   flex-direction: column;
@@ -181,8 +190,13 @@ header .btns button {
   animation-range: entry 0% cover 40%;
 }
 
-.aboutsec div h1{font-size: 2.25rem;}
-.aboutsec div p{font-size: 1.1rem;}
+.aboutsec div h1 {
+  font-size: 2.25rem;
+}
+
+.aboutsec div p {
+  font-size: 1.1rem;
+}
 
 .aboutsec img {
   border-radius: 1rem;
@@ -194,7 +208,7 @@ header .btns button {
 
 .projectssec {
   display: flex;
-  background: #977D6A;
+  background: #9F6F65;
   flex-direction: column;
 }
 
@@ -202,8 +216,12 @@ header .btns button {
   border-bottom: white 2px;
 }
 
-.projectheading h2{
+.projectheading h2 {
   color: white;
+}
+
+.projectheading p a {
+  color: white
 }
 
 .projectssec .carousel {
@@ -227,6 +245,7 @@ header .btns button {
   background: #42445A;
   width: 18rem;
 }
+
 .projectssec .project img {
   width: 50%;
   border-radius: 1rem;
@@ -242,7 +261,7 @@ header .btns button {
   padding: 1rem;
 }
 
-.projectssec .project .description h4{
+.projectssec .project .description h4 {
   font-size: 1.3rem;
   color: #ffffff;
 }
@@ -293,6 +312,7 @@ footer .contactoptions .coption ul {
 footer .contactoptions .coption ul li {
   padding: .4rem;
 }
+
 footer .contactoptions .coption ul li a {
   text-decoration: none;
   display: flex;
@@ -341,6 +361,8 @@ footer .contactoptions .coption ul li a i {
   }
 }
 
+
+
 @media only screen and (min-width: 768px) {
   nav {
     justify-content: space-around;
@@ -371,7 +393,7 @@ footer .contactoptions .coption ul li a i {
     margin: 0 2rem 0 0;
     width: 45%;
     height: fit-content;
-
+    
   }
   
   footer .contactoptions {
@@ -387,6 +409,5 @@ footer .contactoptions .coption ul li a i {
     align-items: center;
   }
   
-  footer .contactoptions .coption {
-  }
+  footer .contactoptions .coption {}
 }
