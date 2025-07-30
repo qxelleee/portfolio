@@ -243,14 +243,14 @@ header .btns button {
   flex-direction: row;
   flex-shrink: 0;
   padding: 1rem;
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   background: #42445A;
-  width: 18rem;
+  width: 19rem;
 }
 
 .projectssec .project img {
   width: 50%;
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   height: fit-content;
 }
 
@@ -260,7 +260,7 @@ header .btns button {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 1rem;
+  padding: .85rem;
 }
 
 .projectssec .project .description h4 {
