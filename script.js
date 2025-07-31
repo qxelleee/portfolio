@@ -11,7 +11,7 @@ function menu(v) {
 }
 
 const stl= getComputedStyle(dropdown);
-console.log(dropdown.getBoundingClientRect().height)
+console.log(dropdown.getBoundingClientRect().height);
 /*const styleroots = document.querySelector(':root');
 styleroots.style.setProperty('--default', '#051429');
 styleroots.style.setProperty('--textcolor', 'white');
