@@ -3,8 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="color-scheme" content="light only">
   <title>Theme</title>
   
@@ -23,7 +22,7 @@
       align-items: center;
       background: #2C3E50;
       transition: all .5s;
-
+      
     }
     
     .parent {
@@ -111,13 +110,13 @@
       0% {
         translate: 0 0;
         background: rgba(255, 255, 255, .3);
-
+        
       }
       
       100% {
         translate: 97.5px 0;
         background: rgba(0, 0, 0, .3);
-
+        
       }
     }
     
@@ -125,13 +124,13 @@
       0% {
         translate: 97.5px 0;
         background: rgba(0, 0, 0, .3);
-
+        
       }
       
       100% {
         translate: 0 0;
         background: rgba(255, 255, 255, .3);
-
+        
       }
     }
     
@@ -181,8 +180,7 @@
   <div class="parent">
     <div class="btn">
       <div class="circle">NIGHT</div>
-      <input type="checkbox"
-        class="check">
+      <input type="checkbox" class="check">
     </div>
     <div class="uds">
       <div class="day"></div>
@@ -213,13 +211,13 @@
       .addEventListener('click',
         () => {
           if (init == 0) {
-            circle.innerHTML='DAY';
+            circle.innerHTML = 'DAY';
             circle.style.animation =
               'ltrcircle ease-out .5s forwards';
             day.style.animation =
               'ltrday ease-out .5s forwards';
-            day.style.opacity='100%';
-            night.style.opacity='0%';
+            day.style.opacity = '100%';
+            night.style.opacity = '0%';
             day.style.boxShadow =
               '0 0 15px 5px white';
             night.style.animation =
@@ -234,18 +232,18 @@
             init = 1;
           }
           else {
-            circle.innerHTML='NIGHT';
+            circle.innerHTML = 'NIGHT';
             circle.style.animation =
               'rtlcircle ease-out .5s forwards';
             day.style.animation =
               'rtlday ease-out .5s forwards';
-              '';
-            day.style.opacity='0%';
-            night.style.opacity='100%';
+            '';
+            day.style.opacity = '0%';
+            night.style.opacity = '100%';
             day.style.boxShadow = '';
             night.style.animation =
               'rtlnight ease-out .5s forwards';
-
+            
             
             document.body.style
               .background = '#2C3E50';
