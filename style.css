@@ -35,10 +35,11 @@ body {
 .loader {
   width:100dvw;
   height:100dvh;
-  background: #00000064;
+  background: #AA9D80;
   display:flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
 }
 
 
