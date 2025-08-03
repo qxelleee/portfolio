@@ -198,6 +198,15 @@ a {
   }
 }
 
+@keyframes loader {
+  from {
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
 @media only screen and (min-width: 768px) {
   nav {
     justify-content: space-around;
@@ -211,3 +220,4 @@ a {
     display: none;
   }
 }
+

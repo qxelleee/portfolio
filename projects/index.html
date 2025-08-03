@@ -10,6 +10,17 @@
 </head>
 
 <body>
+  <!-- loader -->
+  <div class="loader" style="width:100dvw;height:100dvh; background: #00000064;display:flex;justify-content: center; align-items: center;">
+    <div class="spinner" style="height: 3rem;width:3rem; border-radius: 200px; border: .25rem white solid; border-left: solid #ffffff00 .25rem;animation: loader infinite 1s linear;"></div>
+  </div>
+  <script>
+    window.addEventListener('load', function() {
+      document.querySelector('.loader').style.display = 'none';
+    });
+  </script>
+  
+
   <!-- Nav Bar-->
   <nav>
     <h2>Portfolio</h2>
@@ -42,6 +53,8 @@
   
   <div class="gap" style="display: flex; height: 2rem;"></div>
   <div class="copyright">Copyright © 2025 - Dhritiman</div>
+  
+  
   <script src="script.js" type="text/javascript" charset="utf-8"></script>
 </body>
 

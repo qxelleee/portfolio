@@ -361,7 +361,14 @@ footer .contactoptions .coption ul li a i {
   }
 }
 
-
+@keyframes loader {
+  from {
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
 
 @media only screen and (min-width: 768px) {
   nav {
@@ -408,5 +415,4 @@ footer .contactoptions .coption ul li a i {
     flex-direction: row;
     align-items: center;
   }
-  
 }
