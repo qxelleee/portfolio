@@ -32,6 +32,26 @@ body {
   background: var(--shade1);
 }
 
+.loader {
+  width:100dvw;
+  height:100dvh;
+  background: #00000064;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.spinner {
+  height: 3rem;
+  width:3rem;
+  border-radius: 200px;
+  border: .25rem white solid;
+  border-left: solid #ffffff00 .25rem;
+  animation: loader infinite 1s linear;
+}
+
+
 div,
 h1,
 h2,

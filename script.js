@@ -1,3 +1,7 @@
+window.addEventListener('load', function() {
+  document.querySelector('.loader').style.display = 'none';
+});
+
 const nav = document.querySelector('nav');
 const dropdown = document.querySelector('.dropdown');
 
@@ -7,10 +11,10 @@ function menu(v) {
   }
   else {
     dropdown.style.display = 'none'
- }
+  }
 }
 
-const stl= getComputedStyle(dropdown);
+const stl = getComputedStyle(dropdown);
 console.log(dropdown.getBoundingClientRect().height);
 /*const styleroots = document.querySelector(':root');
 styleroots.style.setProperty('--default', '#051429');
