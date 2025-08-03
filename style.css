@@ -64,8 +64,6 @@ nav ul {
   list-style: none;
 }
 
-nav ul li {}
-
 .dropdown ul li a,
 nav ul li a,
 .btns button a {
@@ -411,5 +409,4 @@ footer .contactoptions .coption ul li a i {
     align-items: center;
   }
   
-  footer .contactoptions .coption {}
 }
