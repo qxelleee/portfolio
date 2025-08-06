@@ -134,3 +134,11 @@ nav div i {
 .dropdown div i {
   font-size: 1.75rem;
 }
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem 0;
+  background: var(--shade5);
+}
