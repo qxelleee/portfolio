@@ -92,5 +92,13 @@ a {
   nav div {
     display: none;
   }
+  
+  .blogs {
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 60dvw;
+  }
 }
 
