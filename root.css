@@ -142,3 +142,50 @@ nav div i {
   padding: .5rem 0;
   background: var(--shade5);
 }
+
+@keyframes utd {
+  from {
+    opacity: 0%;
+    transform: translateY(-30px);
+  }
+  
+  to {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scrollani {
+  from {
+    opacity: 0;
+    transform: translateY(100px) scale(.95);
+  }
+  
+  to {
+    opacity: 100%;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes loader {
+  from {
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  nav {
+    justify-content: space-around;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav div {
+    display: none;
+  }
+}
