@@ -2,13 +2,20 @@
 <html>
 
 <head>
+  <!-- Meta Tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="color-scheme" content="light only">
   <meta name="description" content="Dhritiman Kashyap, My Portfolio Page that includes my projects">
-  <title>Dhritiman</title>
+  
+  
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="style.css" type="text/css" media="all" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  
+  
+  <title>Dhritiman</title>
+  
 </head>
 
 <body>
@@ -16,6 +23,7 @@
   <div class="loader">
     <div class="spinner"></div>
   </div>
+  
   
   <!-- Nav Bar-->
   <nav>
@@ -36,6 +44,7 @@
     <div class="cross" onclick="menu()"><i class="bi bi-x"></i></div>
   </div>
   
+  
   <!-- Header -->
   <header id="homedirect">
     <h2>
@@ -46,6 +55,7 @@
       <button><a href="#aboutdirect">Next</a></button>
     </div>
   </header>
+  
   
   <!-- About Section-->
   <div class="aboutheading" id="aboutdirect">
@@ -60,6 +70,7 @@
     </div>
   </div>
   
+  
   <!-- Projects -->
   <div class="projectssec" id="projectdirect">
     <div class="projectheading" style="color:white">
@@ -68,38 +79,39 @@
     </div>
     <div class="carousel">
       
-      <div class="project" onclick="window.location.href='projects/direct/notesapp.html'">
+      <figcaption class="project" onclick="window.location.href='projects/direct/notesapp.html'">
         <img src="projectimages/notes.webp" alt="">
         <div class="description">
           <h4>Notes App</h4>
           <p>using HTML CSS and Js. It can store data locally on the device storage</p>
         </div>
-      </div>
-      <div class="project" onclick="window.location.href='projects/direct/chatgptclone.html'">
+      </figcaption>
+      <figcaption class="project" onclick="window.location.href='projects/direct/chatgptclone.html'">
         <img src="projectimages/chatgpt.webp" alt="">
         <div class="description">
           <h4>ChatGPT</h4>
           <p>A clone of ChatGPT Mobile. It uses API to generate responses</p>
         </div>
-      </div>
-      <div class="project" onclick="window.location.href='projects/direct/DayToggle.html'">
+      </figcaption>
+      <figcaption class="project" onclick="window.location.href='projects/direct/DayToggle.html'">
         <img src="projectimages/toggle.webp" alt="">
         <div class="description">
           <h4>Theme toggle button</h4>
           <p>swich between day and night just by clicking XD</p>
         </div>
-      </div>
-      <div class="project" onclick="window.location.href='projects/direct/googlesheets.html'">
+      </figcaption>
+      <figcaption class="project" onclick="window.location.href='projects/direct/googlesheets.html'">
         <img src="projectimages/gsheets.webp" alt="">
         <div class="description">
           <h4>Google sheets</h4>
           <p>"Google Sheets" App's logo design using CSS [non-reactive]</p>
         </div>
-      </div>
+      </figcaption>
       
       
     </div>
   </div>
+  
   
   <!-- Footer -->
   <footer>
@@ -121,6 +133,7 @@
   <div class="copyright">Copyright © 2025 - Dhritiman</div>
   
   
+  <!-- Scripts -->
   <script src="roots/root.js" type="text/javascript" charset="utf-8"></script>
   <script src="script.js" type="text/javascript" charset="utf-8"></script>
 </body>
